@@ -121,6 +121,8 @@
   "CNN Boiler": {
     "prefix": "fomo_boil_cnn",
     "body": [
+      "# Output Size = (N-F+2P)/S + 1",
+      "",
       "import numpy as np",
       "",
       "X = np.random.randint(0, 256, (6000, 32,32,1))",
